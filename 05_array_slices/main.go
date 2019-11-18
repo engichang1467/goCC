@@ -17,8 +17,8 @@ func main() {
 	fmt.Println(fruitArr[1])
 
 	// Slice
-	fruitSlice := []string{"Apple", "Orange", "Grape"}
+	fruitSlice := []string{"Apple", "Orange", "Grape", "Cherry"}
 
-	fmt.Println(fruitSlice)
-
+	fmt.Println(len(fruitSlice))
+	fmt.Println(fruitSlice[1:3])
 }
